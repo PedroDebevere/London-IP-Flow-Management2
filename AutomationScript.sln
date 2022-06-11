@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{2CCF1CDB-D69A-459B-9C9B-FF803DA722DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{59CF7C1E-A801-424F-A950-750BA3211EF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{7126C299-DAC3-4901-9FF1-0B1CAF1F3091}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\readme.txt = Dlls\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{E81691CF-9EE0-4C0B-B26C-CDA798EA48BF}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\readme.txt = Documentation\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{E86847E7-D61B-4AFE-A612-1048FF0B762D}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationScript_ClassLibrary", "AutomationScript_ClassLibrary\AutomationScript_ClassLibrary.csproj", "{94860306-4E73-4C96-BC8C-8194A592CC37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Signal Problem Detected", "Signal Problem Detected", "{B59E0AA1-EBC6-4CCF-913E-654E49B34748}"
+	ProjectSection(SolutionItems) = preProject
+		Signal Problem Detected.xml = Signal Problem Detected.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{0B00ABF3-7340-4AEE-BBEA-16A8B57C5308}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Signal Problem Detected_2", "Signal Problem Detected_2\Signal Problem Detected_2.csproj", "{9E1AE356-1599-4980-8CCA-30F23EA2EFE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94860306-4E73-4C96-BC8C-8194A592CC37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94860306-4E73-4C96-BC8C-8194A592CC37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94860306-4E73-4C96-BC8C-8194A592CC37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94860306-4E73-4C96-BC8C-8194A592CC37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E1AE356-1599-4980-8CCA-30F23EA2EFE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E1AE356-1599-4980-8CCA-30F23EA2EFE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E1AE356-1599-4980-8CCA-30F23EA2EFE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E1AE356-1599-4980-8CCA-30F23EA2EFE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E86847E7-D61B-4AFE-A612-1048FF0B762D} = {2CCF1CDB-D69A-459B-9C9B-FF803DA722DE}
+		{94860306-4E73-4C96-BC8C-8194A592CC37} = {2CCF1CDB-D69A-459B-9C9B-FF803DA722DE}
+		{B59E0AA1-EBC6-4CCF-913E-654E49B34748} = {59CF7C1E-A801-424F-A950-750BA3211EF7}
+		{0B00ABF3-7340-4AEE-BBEA-16A8B57C5308} = {B59E0AA1-EBC6-4CCF-913E-654E49B34748}
+		{9E1AE356-1599-4980-8CCA-30F23EA2EFE8} = {0B00ABF3-7340-4AEE-BBEA-16A8B57C5308}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6232E10-5618-4A4D-9EB5-BE9E5FAA9132}
+	EndGlobalSection
+EndGlobal
