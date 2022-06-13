@@ -23,8 +23,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analy
 		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationScript_ClassLibrary", "AutomationScript_ClassLibrary\AutomationScript_ClassLibrary.csproj", "{94860306-4E73-4C96-BC8C-8194A592CC37}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Signal Problem Detected", "Signal Problem Detected", "{B59E0AA1-EBC6-4CCF-913E-654E49B34748}"
 	ProjectSection(SolutionItems) = preProject
 		Signal Problem Detected.xml = Signal Problem Detected.xml
@@ -40,10 +38,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{94860306-4E73-4C96-BC8C-8194A592CC37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94860306-4E73-4C96-BC8C-8194A592CC37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94860306-4E73-4C96-BC8C-8194A592CC37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94860306-4E73-4C96-BC8C-8194A592CC37}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9E1AE356-1599-4980-8CCA-30F23EA2EFE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9E1AE356-1599-4980-8CCA-30F23EA2EFE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E1AE356-1599-4980-8CCA-30F23EA2EFE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -54,7 +48,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E86847E7-D61B-4AFE-A612-1048FF0B762D} = {2CCF1CDB-D69A-459B-9C9B-FF803DA722DE}
-		{94860306-4E73-4C96-BC8C-8194A592CC37} = {2CCF1CDB-D69A-459B-9C9B-FF803DA722DE}
 		{B59E0AA1-EBC6-4CCF-913E-654E49B34748} = {59CF7C1E-A801-424F-A950-750BA3211EF7}
 		{0B00ABF3-7340-4AEE-BBEA-16A8B57C5308} = {B59E0AA1-EBC6-4CCF-913E-654E49B34748}
 		{9E1AE356-1599-4980-8CCA-30F23EA2EFE8} = {0B00ABF3-7340-4AEE-BBEA-16A8B57C5308}
